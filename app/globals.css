@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,48 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+/* form styling */
+input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 2px solid #555;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #4c87af;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4ca0af;
+}
+
+textarea {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea:focus {
+  border: 2px solid #555;
+  border-radius: 4px;
+}
+
+/* footer styling */
+footer {
+  text-align: right;
 }
